@@ -1,0 +1,11 @@
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 10;
+  font: 18px / 1 sans-serif;
+}
+h1 {
+  text-align: center;
+}
