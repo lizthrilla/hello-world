@@ -6,23 +6,54 @@ body {
   margin: 20px;
   font: 18px / 1 sans-serif;
   align-content: flex-end;
+  background-color: #959595;
 }
 h1 {
   text-align: center;
+  font-family: monospace;
+  font-size: 50px;
 }
 #future {
   font-family: fantasy;
+  color: #138D75;
+  font-size: 25px;
 }
 #past {
   font-family: cursive;
-  font-size: 20px;
+  font-size: 30px;
+  color: #138D75;
+}
+#present {
+  color: #138D75;
+  font-size: 25px;
 }
 .section {
   border-style: solid;
   border-width: medium;
   border-color: black;
   margin: 20px;
+  align-content: center;
+  background-color: #D7DBDD;
 }
-h6 {
+h5 {
   text-align: center;
+  font-family: monospace;
+}
+#picture {
+  height: 300px;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+figcaption {
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  margin: auto;
+}
+p {
+  padding: 10px;
+}
+h3 {
+  padding: 10px;
 }
