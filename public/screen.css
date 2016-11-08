@@ -3,10 +3,12 @@ html {
 }
 
 body {
-  margin: 20px;
-  font: 18px / 1 sans-serif;
-  align-content: flex-end;
   background-color: #959595;
+  font: 18px / 1 sans-serif;
+}
+main {
+  max-width: 42 em;
+  margin: auto;
 }
 h1 {
   text-align: center;
@@ -27,6 +29,9 @@ h1 {
   color: #138D75;
   font-size: 25px;
 }
+section {
+  display:flex;
+}
 .section {
   border-style: solid;
   border-width: medium;
@@ -39,21 +44,29 @@ h5 {
   text-align: center;
   font-family: monospace;
 }
-#picture {
+.picture {
   height: 300px;
   width: auto;
   display: block;
-  margin: auto;
+  border-style: solid;
+  border-width:thin;
+  border-color: black;
 }
 figcaption {
   font-size: 15px;
   font-family: monospace;
   text-align: center;
-  margin: auto;
 }
 p {
   padding: 10px;
 }
 h3 {
-  padding: 10px;
+  padding-left: 10px;
+}
+#futext {
+  padding-top: 0px;
+}
+#atom {
+  height: 400px;
+  width: 700px;
 }
